@@ -8,13 +8,13 @@ edition = "2018"
 jsonrpc-core = "15"
 jsonrpc-core-client = "15"
 jsonrpc-derive = "15"
-sc-rpc = { version = "3.0.0", git = "https://github.com/webb-tools/substrate.git", branch = "erup-4" }
+sc-rpc = { version = "3.0.0", git = "https://github.com/Mint-Network/substrate.git", branch = "cdx-1" }
 
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = ["derive"] }
-sp-core = { version = "3.0.0", git = "https://github.com/webb-tools/substrate.git", branch = "erup-4" }
-sp-api = { version = "3.0.0", git = "https://github.com/webb-tools/substrate.git", branch = "erup-4" }
-sp-blockchain = { version = "3.0.0", git = "https://github.com/webb-tools/substrate.git", branch = "erup-4" }
-sp-runtime = { version = "3.0.0", git = "https://github.com/webb-tools/substrate.git", branch = "erup-4" }
+sp-core = { version = "3.0.0", git = "https://github.com/Mint-Network/substrate.git", branch = "cdx-1" }
+sp-api = { version = "3.0.0", git = "https://github.com/Mint-Network/substrate.git", branch = "cdx-1" }
+sp-blockchain = { version = "3.0.0", git = "https://github.com/Mint-Network/substrate.git", branch = "cdx-1" }
+sp-runtime = { version = "3.0.0", git = "https://github.com/Mint-Network/substrate.git", branch = "cdx-1" }
 
 merkle = { package = "pallet-merkle", path = "../", default-features = false }
 
